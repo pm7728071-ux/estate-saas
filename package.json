@@ -1,0 +1,9 @@
+{
+  "name": "estate-saas",
+  "version": "0.1.0",
+  "description": "Multi-tenant property management SaaS — rent ledger and arrears (foundation)",
+  "main": "app.js",
+  "scripts": { "start": "node app.js", "test": "node tests/foundation.test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2", "mongodb": "^6.8.0" }
+}
